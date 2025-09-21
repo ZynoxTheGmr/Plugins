@@ -1,0 +1,15 @@
+name: ElementalAffinity
+version: 1.0
+main: com.elementalaffinity.ElementalAffinity
+api-version: 1.19
+author: Jules
+description: A plugin that gives players elemental powers.
+commands:
+  element:
+    description: Main command for the ElementalAffinity plugin.
+    usage: /<command> [subcommand]
+    aliases: [el, ea]
+permissions:
+  elementalaffinity.admin:
+    description: Grants access to all admin commands.
+    default: op
